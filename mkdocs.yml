@@ -1,4 +1,30 @@
 site_name: My Docs
 site_url: https://olektronikk.github.io/md/
+
+nav:
+  - ToDo: ToDo.md
+  - usefule_links: usefule_links.md
+  - PM: 
+    - PM: PM/pm.md
+
+
 theme:
   name: material
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
