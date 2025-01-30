@@ -1,11 +1,15 @@
-site_name: My Docs
+site_name: Olek
 site_url: https://olektronikk.github.io/md/
 
 nav:
-  - ToDo: ToDo.md
+  - 00 - ToDo: ToDo.md
   - usefule_links: usefule_links.md
   - PM: 
     - PM: PM/pm.md
+  - MY: 
+    - MY: MY/my.md
+  - MASTER THESIS: 
+    - MASTER THESIS: MASTER_THESIS/master_thesis.md
 
 
 theme:
@@ -28,3 +32,25 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.details
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

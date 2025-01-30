@@ -3,7 +3,7 @@
 - [Indico](https://indico.cern.ch/category/6065/)
 - [matermost](https://mattermost.web.cern.ch/fit-fee/)
 - [SAMS](https://alice-glance.cern.ch/alice/sams/)
-
+- [FIT On-Call Schedule](https://docs.google.com/spreadsheets/d/1fkgZZ3mexT-pVokp9d0r8WlgS0yDTcAYTPZSq3IIvlY/edit?gid=0#gid=0)
 
 ## GitHub
  - [alice-fit-fpga](https://github.com/AliceO2Group/alice-fit-fpga)
