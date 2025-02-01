@@ -1,19 +1,29 @@
-site_name: Olek
+site_name: FIT-Lab
 site_url: https://olektronikk.github.io/md/
 
 nav:
-  - 00 - ToDo: ToDo.md
-  - usefule_links: usefule_links.md
-  - PM: 
-    - PM: PM/pm.md
-  - MY: 
+  - ToDo: OTHER/ToDo.md
+  - Links: OTHER/usefule_links.md
+  - Organizational matters: OTHER/Organizational_matters.md
+  - GBT: GBT/gbt.md
+  - Common: COMMON/common.md
+  - Lab C2 413: LAB/lab.md
+  - CRU: CRU/cru.md
+  - PM: PM/pm.md
+  - Master Thesis: MASTER_THESIS/master_thesis.md
+  - FPGA Vivado: FPGA_PROJECTS/fpga_projects.md
+  - My: 
     - MY: MY/my.md
-  - MASTER THESIS: 
-    - MASTER THESIS: MASTER_THESIS/master_thesis.md
+    - Altium: MY/altium.md
+    - RX/TX: MY/rxtx.md
+  
+
+
 
 
 theme:
   name: material
+  logo: logo_7.jpg
   palette: 
 
     # Palette toggle for light mode
@@ -54,3 +64,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - md_in_html

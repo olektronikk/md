@@ -1,16 +1,17 @@
-Первая строка  
-    Вторая строка   
-###### ИЕРАРХИЯ
+ 
+### ИЕРАРХИЯ
 ??? fit failure
     ??? PINCAPT_M40_1 failure
     ??? PINCAPT_M40_2 failure
     ??? PINCAPT_M40_3 failure
     PINCAPT_M40_3 failure
     PINCAPT_M40_3 failure
-###### XDC
+### XDC
+??? XDC failure
+    ![alt text](IMG/image.png)
+    ![alt text](IMG/image_1.png)
 
-
-###### Недороботаное 
+### Недороботаное 
 ??? pin_capt failure
     ``` mermaid
     flowchart LR
@@ -22,13 +23,3 @@
 
     D-->|text|A -->|p|PLL1(CLK600_pll)
     ```
-
-<a href="C:\Users\o_so\Desktop\repo\md\docs\PM\qqq.pdf" target="_blank">
-    <button>Open PDF</button>
-</a>
-
-<a href="PM\qqq.pdf" target="_blank">
-    <button>Open PDF</button>
-</a>
-
-<button onclick="window.open('qqq.pdf', '_blank')">Open PDF</button>
