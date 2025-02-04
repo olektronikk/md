@@ -5,17 +5,18 @@ nav:
   - ToDo: OTHER/ToDo.md
   - Links: OTHER/usefule_links.md
   - Organizational matters: OTHER/Organizational_matters.md
-  - GBT: GBT/gbt.md
-  - Common: COMMON/common.md
+ # - GBT: GBT/gbt.md
+ # - IPBUS: IPBUS/ipbus.md
+ # - Common: COMMON/common.md
   - Lab C2 413: LAB/lab.md
-  - CRU: CRU/cru.md
-  - PM: PM/pm.md
-  - Master Thesis: MASTER_THESIS/master_thesis.md
-  - FPGA Vivado: FPGA_PROJECTS/fpga_projects.md
-  - My: 
-    - MY: MY/my.md
-    - Altium: MY/altium.md
-    - RX/TX: MY/rxtx.md
+ # - CRU: CRU/cru.md
+ # - PM: PM/pm.md
+  # - Master Thesis: MASTER_THESIS/master_thesis.md
+  # - FPGA Vivado: FPGA_PROJECTS/fpga_projects.md
+  # - My: 
+  #   - MY: MY/my.md
+  #   - Altium: MY/altium.md
+  #   - RX/TX: MY/rxtx.md
   
 
 
@@ -23,7 +24,7 @@ nav:
 
 theme:
   name: material
-  logo: logo_7.jpg
+  # logo: logo_7.jpg
   palette: 
 
     # Palette toggle for light mode
@@ -66,3 +67,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
   - md_in_html
+
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+
+  # ![Running disparity](IMG/RXTX/image_2.png){width=300 style="display: block; margin: auto;"
+  # 🟢📄🌐
